@@ -38,4 +38,3 @@ likes.appendChild(li);
 form.addEventListener("submit",function(){
   alert("go")
 })
-
