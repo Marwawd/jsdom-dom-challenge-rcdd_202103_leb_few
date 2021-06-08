@@ -14,7 +14,7 @@ let times=0;
 
 const form = document.getElementById('form');
 //const log = document.getElementById('log');
-form.addEventListener('submit', function(){console.log("gggg")});
+submit.addEventListener('submit', function(){console.log("gggg")});
 function count(){
 
   p.addEventListener("click", function(){
