@@ -38,10 +38,10 @@ li.innerHTML=`${c} get ${times} likes`
 likes.appendChild(li);
 })
 submit.addEventListener("click", function(){
-
-let li=document.createElement("li");
-li.innerHTML=comments.value;
-comments.appendChild(li);
+console.log(comments.value)
+// let li=document.createElement("li");
+// li.innerHTML=comments.value;
+// comments.appendChild(li);
 })
 /*
 document.getElementsByClassName('likes').addEventListener()("click" , function (){let cc=parseInt(document.getElementById('counter').innerText);
