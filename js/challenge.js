@@ -35,9 +35,18 @@ let li=document.createElement("li");
 li.innerHTML=`${c} get ${times} likes`
 likes.appendChild(li);
 })
-form.addEventListener("submit",function(){
-  //alert(`${comments.value}`)
-  let lll=document.createElement("li");
-  lll.innerHTML=comments.value;
-  co.appendChild(lll)
-})
+// form.addEventListener("submit",function(){
+//   //alert(`${comments.value}`)
+//   let lll=document.createElement("li");
+//   lll.innerHTML=comments.value;
+//   co.appendChild(lll)
+// })
+
+function logSubmit(event) {
+  log.textContent = `Form Submitted! Time stamp`;
+  event.preventDefault();
+}
+
+const form = document.getElementById('form');
+const log = document.getElementById('log');
+form.addEventListener('submit', logSubmit);
