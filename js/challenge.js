@@ -12,9 +12,7 @@ let comments=document.getElementById("comment-input");
 
 let times=0;
 
-const form = document.getElementById('form');
-//const log = document.getElementById('log');
-submit.addEventListener('submit', function(){console.log("gggg")});
+
 function count(){
 
   p.addEventListener("click", function(){
@@ -25,10 +23,7 @@ function count(){
   c++;
   document.getElementById('counter').innerHTML=c;
 }
-// let likes=document.getElementsByClassName("likes");
-// likes=document.getElementById('lik');
-//   likes.addEventListener("click", function(){
-//   document.getElementsByTagName('ul').innerText = "HI";})
+
 
 po.addEventListener("click", function(){
 clearInterval(intervalID);
@@ -40,30 +35,7 @@ let li=document.createElement("li");
 li.innerHTML=`${c} get ${times} likes`
 likes.appendChild(li);
 })
-// form.addEventListener("submit",function(){
-//   console.log("woga")
-// })
+form.addEventListener("submit",function(){
+  alert("go")
+})
 
-
-/*
-
-document.getElementsByClassName('likes').addEventListener()("click" , function (){let cc=parseInt(document.getElementById('counter').innerText);
-let dis=parseInt(document.getElementsByClassName('likes').innerText)
-document.getElementsByTagName("ul").innerHTML+=`${cc} likes ${dis} times`;});
-/*function likes(){
-  if(h.clicked==true) {
-    times++;
-    let msg=`${c} was liked ${times} times`;
-  document.getElementsByClassName('likes').innerHTML+=msg;
-
-  }}
-
-
-/*
-function pause(){
-  if(document. getElementById('pause'). clicked == true)
-{
-alert("button was clicked");
-}
-}
-*/
