@@ -32,7 +32,7 @@ po.innerHTML="resume";
 h.addEventListener("click", function(){
 times++;
 let li=document.createElement("li");
-li.innerHTML=`${c}`
+li.innerHTML=`${c} get ${times} likes`
 likes.appendChild(li);
 })
 /*
