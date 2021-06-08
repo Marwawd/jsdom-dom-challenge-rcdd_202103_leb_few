@@ -38,8 +38,8 @@ let li=document.createElement("li");
 li.innerHTML=`${c} get ${times} likes`
 likes.appendChild(li);
 })
-submit.addEventListener("click", function(){
-  console.log("hh")
+form.addEventListener("submit",function(){
+  console.log("woga")
 })
 /*
 
