@@ -42,14 +42,7 @@ likes.appendChild(li);
 //   console.log("woga")
 // })
 
-function logSubmit() {
-  log.textContent = `Form Submitted! Time stamp`;
 
-}
-
-const form = document.getElementById('form');
-//const log = document.getElementById('log');
-form.addEventListener('submit', logSubmit);
 /*
 
 document.getElementsByClassName('likes').addEventListener()("click" , function (){let cc=parseInt(document.getElementById('counter').innerText);
