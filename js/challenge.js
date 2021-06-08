@@ -6,7 +6,7 @@ let p=document.getElementById('plus');
 let n=document.getElementById('minus');
 let h=document.getElementById('heart');
 let po=document.getElementById('pause');
-
+let likes=document.getElementById('lik')
 let times=0;
 
 
@@ -33,7 +33,7 @@ h.addEventListener("click", function(){
 times++;
 let li=document.createElement("li");
 li.innerHTML=`${counter}`
-u1.appendchild(LI)
+likes.appendchild(LI)
 })
 /*
 document.getElementsByClassName('likes').addEventListener()("click" , function (){let cc=parseInt(document.getElementById('counter').innerText);
