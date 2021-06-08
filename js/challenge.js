@@ -33,7 +33,7 @@ h.addEventListener("click", function(){
 times++;
 let li=document.createElement("li");
 li.innerHTML=`${counter}`
-likes.appendchild(LI)
+likes.appendchild(li)
 })
 /*
 document.getElementsByClassName('likes').addEventListener()("click" , function (){let cc=parseInt(document.getElementById('counter').innerText);
