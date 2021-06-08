@@ -36,5 +36,5 @@ li.innerHTML=`${c} get ${times} likes`
 likes.appendChild(li);
 })
 form.addEventListener("submit",function(){
-  alert("go")
+  alert('${comments.value}')
 })
