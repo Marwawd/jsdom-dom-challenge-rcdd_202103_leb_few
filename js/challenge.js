@@ -42,5 +42,3 @@ form.addEventListener("submit",function(e){
   lll.innerHTML=comments.value;
   co.appendChild(lll)
 })
-
-
