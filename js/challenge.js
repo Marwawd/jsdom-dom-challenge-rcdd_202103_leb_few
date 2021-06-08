@@ -26,7 +26,7 @@ function count(){
 
 po.addEventListener("click", function(){
 clearInterval(intervalID);
-po.innerHTML="rez"})
+po.innerHTML="resume"})
 
 /*
 document.getElementsByClassName('likes').addEventListener()("click" , function (){let cc=parseInt(document.getElementById('counter').innerText);
