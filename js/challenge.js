@@ -42,9 +42,9 @@ likes.appendChild(li);
 //   console.log("woga")
 // })
 
-function logSubmit(event) {
+function logSubmit() {
   log.textContent = `Form Submitted! Time stamp`;
-  event.preventDefault();
+
 }
 
 const form = document.getElementById('form');
