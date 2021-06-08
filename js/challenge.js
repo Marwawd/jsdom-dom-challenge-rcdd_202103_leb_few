@@ -38,7 +38,7 @@ li.innerHTML=`${c} get ${times} likes`
 likes.appendChild(li);
 })
 submit.addEventListener("click", function(){
-times++;
+
 let li=document.createElement("li");
 li.innerHTML=comments.innerHTML;
 comments.appendChild(li);
