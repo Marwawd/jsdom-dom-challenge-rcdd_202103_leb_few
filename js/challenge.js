@@ -40,7 +40,7 @@ likes.appendChild(li);
 submit.addEventListener("click", function(){
 
 let li=document.createElement("li");
-li.innerHTML=comments.innerText;
+li.innerHTML=comments.value;
 comments.appendChild(li);
 })
 /*
