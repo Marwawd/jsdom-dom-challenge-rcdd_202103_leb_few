@@ -9,7 +9,7 @@ let po=document.getElementById('pause');
 let likes=document.getElementById('lik');
 let form=document.getElementById("comment-form");
 let comments=document.getElementById("comment-input");
-
+let showcomment=document.getElementById("co")
 let times=0;
 
 
