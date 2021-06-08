@@ -6,6 +6,7 @@ let p=document.getElementById('plus');
 let n=document.getElementById('minus');
 let h=document.getElementById('heart');
 let po=document.getElementById('pause');
+
 let times=0;
 
 
@@ -28,7 +29,12 @@ po.addEventListener("click", function(){
 clearInterval(intervalID);
 po.innerHTML="resume";
 })
-
+h.addEventListener("click", function(){
+times++;
+let li=document.createElement("li");
+li.innerHTML=`${counter}`
+u1.appendchild(LI)
+})
 /*
 document.getElementsByClassName('likes').addEventListener()("click" , function (){let cc=parseInt(document.getElementById('counter').innerText);
 let dis=parseInt(document.getElementsByClassName('likes').innerText)
