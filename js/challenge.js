@@ -38,13 +38,9 @@ let li=document.createElement("li");
 li.innerHTML=`${c} get ${times} likes`
 likes.appendChild(li);
 })
-submit.addEventListener("click", function(){
-hhh.innerHTML+=comments.value;
-// let li=document.createElement("li");
-// li.innerHTML=comments.value;
-// comments.appendChild(li);
-})
+
 /*
+
 document.getElementsByClassName('likes').addEventListener()("click" , function (){let cc=parseInt(document.getElementById('counter').innerText);
 let dis=parseInt(document.getElementsByClassName('likes').innerText)
 document.getElementsByTagName("ul").innerHTML+=`${cc} likes ${dis} times`;});
