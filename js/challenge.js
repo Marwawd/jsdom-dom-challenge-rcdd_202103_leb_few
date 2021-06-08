@@ -25,7 +25,8 @@ function count(){
 //   document.getElementsByTagName('ul').innerText = "HI";})
 
 po.addEventListener("click", function(){
-clearInterval(intervalID)})
+clearInterval(intervalID);
+po.innerHTML="rez"})
 
 /*
 document.getElementsByClassName('likes').addEventListener()("click" , function (){let cc=parseInt(document.getElementById('counter').innerText);
