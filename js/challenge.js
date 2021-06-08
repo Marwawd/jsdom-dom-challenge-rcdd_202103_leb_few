@@ -7,7 +7,7 @@ let n=document.getElementById('minus');
 let h=document.getElementById('heart');
 let po=document.getElementById('pause');
 let likes=document.getElementById('lik');
-let submit=document.getElementById("submit");
+let form=document.getElementById("comment-form");
 let comments=document.getElementById("comment-input");
 
 let times=0;
