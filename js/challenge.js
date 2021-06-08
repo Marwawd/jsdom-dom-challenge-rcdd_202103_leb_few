@@ -6,7 +6,9 @@ let p=document.getElementById('plus');
 let n=document.getElementById('minus');
 let h=document.getElementById('heart');
 let po=document.getElementById('pause');
-let likes=document.getElementById('lik')
+let likes=document.getElementById('lik');
+let submit=document.getElementById("submit");
+let comments=document.getElementById("comment-input")
 let times=0;
 
 
@@ -34,6 +36,12 @@ times++;
 let li=document.createElement("li");
 li.innerHTML=`${c} get ${times} likes`
 likes.appendChild(li);
+})
+submit0.addEventListener("click", function(){
+times++;
+let li=document.createElement("li");
+li.innerHTML=comments.innerHTML;
+comments.appendChild(li);
 })
 /*
 document.getElementsByClassName('likes').addEventListener()("click" , function (){let cc=parseInt(document.getElementById('counter').innerText);
