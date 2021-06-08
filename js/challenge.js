@@ -18,7 +18,6 @@ function count(){
   document.getElementById("counter").innerHTML = c--;})
   c++;
   document.getElementById('counter').innerHTML=c;}
-
 let likes=document.getElementsByClassName("likes");
 likes=document.getElementById('lik');
   likes.addEventListener("click", function(){
