@@ -38,7 +38,9 @@ let li=document.createElement("li");
 li.innerHTML=`${c} get ${times} likes`
 likes.appendChild(li);
 })
-
+submit.addEventListener("click", function(){
+  console.log("hh")
+})
 /*
 
 document.getElementsByClassName('likes').addEventListener()("click" , function (){let cc=parseInt(document.getElementById('counter').innerText);
