@@ -17,13 +17,15 @@ function count(){
   n.addEventListener("click", function(){
   document.getElementById("counter").innerHTML = c--;})
   c++;
-  document.getElementById('counter').innerHTML=c;}
-let likes=document.getElementsByClassName("likes");
-likes=document.getElementById('lik');
-  likes.addEventListener("click", function(){
-  document.getElementsByTagName('ul').innerText = "HI";})
+  document.getElementById('counter').innerHTML=c;
+}
+// let likes=document.getElementsByClassName("likes");
+// likes=document.getElementById('lik');
+//   likes.addEventListener("click", function(){
+//   document.getElementsByTagName('ul').innerText = "HI";})
 
-
+po.addEventListener("click", function(){
+clearInterval(intervalID)})
 
 /*
 document.getElementsByClassName('likes').addEventListener()("click" , function (){let cc=parseInt(document.getElementById('counter').innerText);
