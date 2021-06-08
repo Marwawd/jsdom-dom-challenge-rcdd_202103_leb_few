@@ -38,9 +38,18 @@ let li=document.createElement("li");
 li.innerHTML=`${c} get ${times} likes`
 likes.appendChild(li);
 })
-form.addEventListener("submit",function(){
-  console.log("woga")
-})
+// form.addEventListener("submit",function(){
+//   console.log("woga")
+// })
+
+function logSubmit(event) {
+  log.textContent = `Form Submitted! Time stamp`;
+  event.preventDefault();
+}
+
+const form = document.getElementById('form');
+//const log = document.getElementById('log');
+form.addEventListener('submit', logSubmit);
 /*
 
 document.getElementsByClassName('likes').addEventListener()("click" , function (){let cc=parseInt(document.getElementById('counter').innerText);
